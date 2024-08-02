@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelTest2 문제2", "..\Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelTest2 문제3", "..\LevelTest2 문제3\LevelTest2 문제3.csproj", "{5C51103D-8C49-4CF2-940C-9F462FBDAA8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelTest2 문제4", "..\LevelTest2 문제4\LevelTest2 문제4.csproj", "{FBB267F6-CFFE-4ABC-B9BF-1D0D8C8F3191}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5C51103D-8C49-4CF2-940C-9F462FBDAA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C51103D-8C49-4CF2-940C-9F462FBDAA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C51103D-8C49-4CF2-940C-9F462FBDAA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB267F6-CFFE-4ABC-B9BF-1D0D8C8F3191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB267F6-CFFE-4ABC-B9BF-1D0D8C8F3191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB267F6-CFFE-4ABC-B9BF-1D0D8C8F3191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB267F6-CFFE-4ABC-B9BF-1D0D8C8F3191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

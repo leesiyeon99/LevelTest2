@@ -11,9 +11,19 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("','로 구분지어 숫자를 입력해주세요");
             Util util = new Util();
-            List<int> answer = util.Solution(new List<int> {4,4,4,3,3});
-            foreach (int i in answer)
+            string[] input = Console.ReadLine().Split(',');
+            List<int> ints = new List<int>();
+            for (int i = 0; i < input.Length; i++)
+            {
+                int.TryParse(input[i], out int value);
+                ints.Add(value);
+            }
+
+            List<int> result = util.Solution(ints);
+
+            foreach (int i in result)
             {
                 Console.Write($"{i}, ");
             }

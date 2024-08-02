@@ -27,6 +27,7 @@ B. 아이템이 사용 불가한 아이템이라면 사용할 수 없다는 출�
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            //아이템 구성만 하고 시간이 끝나서 다 하지 못했습니다..
         }
 
         public abstract class Item

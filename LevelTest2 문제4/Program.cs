@@ -27,6 +27,7 @@
                 map = new Map();
                 curlocation = "마을";
                 moveList = new Stack<string>();
+               
             }
 
             public void GameStart()
@@ -43,7 +44,6 @@
                         {
                             Console.Write($"{move} > ");
                         }
-                        
                     }
                     else
                     {

@@ -25,7 +25,8 @@
 
         public abstract class Monster
         {
-            public string name;
+            public string name; //protected 추천
+            // public string Name {get {return name;}} 바깥에서 이름을 변경할 수 없음
 
             public abstract void Attack();
         }

@@ -44,6 +44,14 @@
                     {
                         answer.Add(array[i]);
                     }
+
+                    //int lastNum = answer.Last(); //담겨있는 배열 중 마지막 배열과 현재 array배열의 값과 비교
+                    //int nextNum = array[i];
+
+                    //if(lastNum != nextNum)
+                    //{
+                    //    answer.Add(nextNum);
+                    //}
                 }
                 return answer;
             }
